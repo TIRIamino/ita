@@ -1,6 +1,17 @@
+require 'faker'
+
+
+
+
+
 puts 'Deleting artists'
 Artist.destroy_all
-puts 'Creating 5 artists...'
+puts 'Creating 5 Artists seed.'
+
+
+
+
+
 5.times do |i|
   artist = Artist.create!(
     name: Faker::Book.author,
