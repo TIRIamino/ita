@@ -1,5 +1,7 @@
 require 'faker'
 
+puts 'Deleting artist'
+Artist.destroy_all
 puts 'Creating 5 Artists seed.'
 
 5.times do |i|
