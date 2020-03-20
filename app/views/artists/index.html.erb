@@ -5,10 +5,10 @@
         <h1>Awesome Artists</h1>
       </div>
         <% @artists.each do |artist| %>
-          <div class="card-artist">
-            <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+           <div class="card-artist">
+            <img src="https://unsplash.com/photos/zrk7WirlxgM" />
             <div class="card-artist-infos">
-              <h2><%= artist.name %></h2>
+              <h2><%= artist.nom %></h2>
               <p><%= artist.tagline %></p>
 
               <%= link_to "Book now", "#", class: "btn btn-flat"%>
